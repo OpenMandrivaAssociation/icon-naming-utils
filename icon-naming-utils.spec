@@ -1,6 +1,6 @@
 %define name icon-naming-utils
-%define version 0.8.2
-%define release %mkrel 2
+%define version 0.8.6
+%define release %mkrel 1
 
 Summary: Icon handling tools of the Tango Project
 Name: %{name}
@@ -11,7 +11,7 @@ Patch0: 01_fix_dtd_path.patch
 Patch1: 03_add_more_xfce_links.patch
 Patch2: 03_gtk_apply_close_ok.patch
 Patch3: 04_add_gtk_stock_directory.patch
-Patch4: 05_add_missing_links.patch
+Patch4: icon-naming-utils-0.8.6-missinglink.patch
 
 License: GPL
 Group: Graphical desktop/Other
