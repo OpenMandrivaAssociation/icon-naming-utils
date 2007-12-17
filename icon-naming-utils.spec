@@ -16,7 +16,6 @@ Patch4: icon-naming-utils-0.8.6-missinglink.patch
 License: GPL
 Group: Graphical desktop/Other
 Url: http://tango-project.org/Tango_Icon_Library#Download
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:noarch
 BuildRequires: perl-XML-Simple
 
