@@ -1,6 +1,6 @@
 %define name icon-naming-utils
-%define version 0.8.6
-%define release %mkrel 3
+%define version 0.8.7
+%define release %mkrel 1
 
 Summary: Icon handling tools of the Tango Project
 Name: %{name}
@@ -15,7 +15,7 @@ Patch4: icon-naming-utils-0.8.6-missinglink.patch
 
 License: GPL
 Group: Graphical desktop/Other
-Url: http://tango-project.org/Tango_Icon_Library#Download
+#Url: http://tango-project.org/Tango_Icon_Library#Download
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:noarch
 BuildRequires: perl-XML-Simple
