@@ -1,19 +1,20 @@
 %define name icon-naming-utils
-%define version 0.8.7
+%define version 0.8.90
 %define release %mkrel 1
 
 Summary: Icon handling tools of the Tango Project
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://tango-project.org/releases/%{name}-%{version}.tar.bz2
-Patch0: 01_fix_dtd_path.patch
-Patch1: 03_add_more_xfce_links.patch
+URL: http://tango.freedesktop.org/Standard_Icon_Naming_Specification
+Source0: http://tango.freedesktop.org/releases/%{name}-%{version}.tar.gz
+Patch0: icon-naming-utils-0.8.7-paths.patch
+Patch1: icon-naming-utils-0.8.90-xfce.patch
 Patch2: 03_gtk_apply_close_ok.patch
 Patch3: 04_add_gtk_stock_directory.patch
 Patch4: icon-naming-utils-0.8.6-missinglink.patch
 
-License: GPL
+License: GPL+
 Group: Graphical desktop/Other
 #Url: http://tango-project.org/Tango_Icon_Library#Download
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -32,6 +33,7 @@ the icon names proposed in the Icon Naming Specification linked above.
 %patch2 -p1 -b .gtkapply
 %patch3 -p1 -b .gtkstock
 %patch4 -p1 -b .missinglink
+autoreconf
 
 %build
 ./configure --prefix=%_prefix --libdir=%_prefix/lib --libexecdir=%_prefix/lib
@@ -47,8 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(-,root,root)
 %doc AUTHORS ChangeLog
-%_prefix/lib/icon-name-mapping
-#%_datadir/dtds/
+%_bindir/icon-name-mapping
 %_datadir/%name/
 %_datadir/pkgconfig/%name.pc
 
