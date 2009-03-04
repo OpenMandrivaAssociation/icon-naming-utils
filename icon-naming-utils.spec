@@ -7,7 +7,7 @@ Name: %{name}
 Version: %{version}
 Release: %{release}
 URL: http://tango.freedesktop.org/Standard_Icon_Naming_Specification
-Source0: http://tango.freedesktop.org/releases/%{name}-%{version}.tar.gz
+Source0: http://tango.freedesktop.org/releases/%{name}-%{version}.tar.bz2
 Patch0: icon-naming-utils-0.8.7-paths.patch
 Patch1: icon-naming-utils-0.8.90-xfce.patch
 Patch2: 03_gtk_apply_close_ok.patch
