@@ -1,6 +1,6 @@
 %define name icon-naming-utils
 %define version 0.8.90
-%define release %mkrel 5
+%define release %mkrel 6
 
 Summary: Icon handling tools of the Tango Project
 Name: %{name}
