@@ -1,0 +1,10 @@
+--- icon-naming-utils-0.8.6/legacy-icon-mapping.xml.missinglink	2007-08-28 11:03:56.000000000 +0200
++++ icon-naming-utils-0.8.6/legacy-icon-mapping.xml	2007-08-28 11:08:05.000000000 +0200
+@@ -348,6 +348,7 @@
+ 	</icon>
+ 	<icon name="system-log-out">
+ 	    <link>gnome-logout</link>
++	    <link>gnome-session-logout</link>
+ 	    <link>exit</link>
+ 	</icon>
+ 	<icon name="system-run">
