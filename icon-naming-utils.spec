@@ -1,7 +1,7 @@
 Summary:	Icon handling tools of the Tango Project
 Name:		icon-naming-utils
 Version:	0.8.90
-Release:	10
+Release:	11
 Group:		Graphical desktop/Other
 License:	GPLv2+
 Url:		http://tango.freedesktop.org/Standard_Icon_Naming_Specification
