@@ -22,7 +22,7 @@ the icon names proposed in the Icon Naming Specification linked above.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 autoreconf
 
 %build
