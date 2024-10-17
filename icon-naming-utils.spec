@@ -4,7 +4,7 @@ Version:	0.8.90
 Release:	17
 Group:		Graphical desktop/Other
 License:	GPLv2+
-Url:		http://tango.freedesktop.org/Standard_Icon_Naming_Specification
+Url:		https://tango.freedesktop.org/Standard_Icon_Naming_Specification
 Source0:	http://tango.freedesktop.org/releases/%{name}-%{version}.tar.bz2
 Source100:	%{name}.rpmlintrc
 Patch0:		icon-naming-utils-0.8.7-paths.patch
