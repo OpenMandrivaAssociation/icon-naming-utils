@@ -14,6 +14,11 @@ Patch3:		04_add_gtk_stock_directory.patch
 Patch4:		icon-naming-utils-0.8.6-missinglink.patch
 BuildArch:	noarch
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	perl-XML-Simple
 
 %description
